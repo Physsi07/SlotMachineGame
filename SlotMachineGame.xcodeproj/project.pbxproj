@@ -15,7 +15,6 @@
 		3B1555781F9EFB540043B2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1555771F9EFB540043B2A0 /* Assets.xcassets */; };
 		3B9B2E421F9FABD3003E6A79 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B2E411F9FABD3003E6A79 /* ViewController1.swift */; };
 		3B9B2E461F9FB38E003E6A79 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B2E451F9FB38E003E6A79 /* UIButton.swift */; };
-		3BA3F9DF203D01C800CE381D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA3F9DE203D01C800CE381D /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		3B1555771F9EFB540043B2A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B9B2E411F9FABD3003E6A79 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		3B9B2E451F9FB38E003E6A79 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
-		3BA3F9DE203D01C800CE381D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +44,6 @@
 		3B15554B1F9E75140043B2A0 = {
 			isa = PBXGroup;
 			children = (
-				3BA3F9DE203D01C800CE381D /* Default-568h@2x.png */,
 				3B1555561F9E75150043B2A0 /* SlotMachineGame */,
 				3BA3F9DA203D004800CE381D /* Supporting Documents */,
 				3B1555551F9E75150043B2A0 /* Products */,
@@ -169,7 +166,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B1555621F9E75150043B2A0 /* LaunchScreen.storyboard in Resources */,
-				3BA3F9DF203D01C800CE381D /* Default-568h@2x.png in Resources */,
 				3B1555781F9EFB540043B2A0 /* Assets.xcassets in Resources */,
 				3B15555D1F9E75150043B2A0 /* Main.storyboard in Resources */,
 			);
@@ -324,7 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DQTN5J7QU9;
-				INFOPLIST_FILE = SlotMachineGame/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Documents/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NSFTF.SlotMachineGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -337,7 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DQTN5J7QU9;
-				INFOPLIST_FILE = SlotMachineGame/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Documents/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NSFTF.SlotMachineGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
